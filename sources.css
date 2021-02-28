@@ -1,0 +1,37 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-image: url('Bg.1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+  }
+
+.sub_source{
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.cont_source{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.sub_sub_source{
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+.text_source{
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    margin-right: 5%;
+}
+
+.text_cite{
+    font-family: 'Roboto Slab', serif;
+    margin-left: 5%;
+    font-size: 17px; 
+}

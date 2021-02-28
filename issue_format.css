@@ -1,0 +1,48 @@
+
+.sub_title{
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+}
+
+
+@media screen and (max-width: 940px) {
+    .title{
+      margin-left: 4%;
+      font-family: 'Roboto Slab', serif;
+      font-size: 30px;
+    }
+    .title_div{
+      width: 100%;
+      margin-left: 0%;
+      background-color: black;
+      position: absolute;
+      bottom: -50px;
+      right: 0px; 
+    }
+    .date{
+      margin-top: 4%;
+      font-family: 'Roboto Slab', serif;
+      font-size: 10px;
+      text-decoration: underline;
+      text-decoration-color: #597764;
+    }
+  
+    .text{
+      margin-left: 4%;
+      margin-right: 4%;
+    }
+    .credit{
+      visibility: hidden;
+  
+    }
+    
+
+  
+  }
+
+@media screen and (max-width: 1300px) {
+  .credit{
+    visibility: hidden;
+
+  }
+}

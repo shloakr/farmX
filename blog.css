@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Add a gray background color with some padding */
+  body {
+    font-family: "Lato", sans-serif;
+    background-image: url('Bg.1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+  }
+
+  .layout{
+    margin-left: 0.65%;
+    margin-right: 0.65%;
+  }
+
+  /* text */
+  .header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+  }
+  
+  .title{
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+  }
+  
+  .highlight{
+    color: #597764;
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+  }
+
+
+  .date{
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+  }
+
+
+  .text{
+    font-family: 'Roboto Slab', serif;
+    margin-top: 1%;
+    font-size: 17px;
+  }
+
+  .popular_post{
+    font-family: 'Roboto Slab', serif;
+  }
+
+
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 0px;
+  }
+  /* ad css */
+  .ad{
+    width: 100%;
+  }
+  .card_ad {
+    background-color: white;
+    margin-top: 20px;
+    border: 1px solid;
+    box-shadow: 5px 10px #8f9e95;
+
+ }
+ 
+  /* Add a card effect for articles */
+  .card {
+     background-color: white;
+     margin-top: 20px;
+     border: 1px solid;
+     padding: 10px;
+     box-shadow: 5px 10px #8f9e95;
+
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
+
+/*blog 1*/
+#farmers_bill_img_blog{
+  width: 100%;
+}
+
+
+.side_headings{
+  font-family: 'Roboto Slab', serif;
+  font-size: 25px;
+}
+
+/* blog btn*/
+/* Code By Webdevtrick (https://webdevtrick.com) */
+* {
+  box-sizing: border-box;
+}
+*::before, *::after {
+  box-sizing: border-box;
+}
+ 
+a {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+a.btn {
+  width: 12rem;
+  height: auto;
+}
+a.btn .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: #597764;
+  border-radius: 1.625rem;
+}
+a.btn .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+}
+a.btn .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+}
+a.btn .circle .icon.arrow::before {
+  position: absolute;
+  content: '';
+  top: -0.25rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+a.btn .a-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: black;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+}
+a:hover .circle {
+  width: 100%;
+}
+a:hover .circle .icon.arrow {
+  background: #fff;
+  -webkit-transform: translate(1rem, 0);
+          transform: translate(1rem, 0);
+}
+a:hover .a-text {
+  color: #fff;
+}
+ 
+
+/* end of btn*/
+
+
+/* hyper link */
+.hyperlink{
+  color: #597764;
+  text-decoration: underline;
+  text-decoration-color: #dde7db;
+}
+
+.hyperlink:hover{
+  text-decoration: underline;
+  text-decoration-color: #597764;
+}
+
+.click{
+  visibility: hidden;
+}
+
+/* hyper link end*/
+
+
+/* follow us*/
+/* end of follow us*/
+
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+    .hyperlink{
+      color: #597764;
+      text-decoration: underline;
+      text-decoration-color: #597764;
+
+    }
+
+    .title{
+      font-size: 23px;
+    }
+    .highlight{
+      font-size: 23px;
+    }
+
+    .date{
+      font-size: 16px;
+    }
+    .click{
+      font-size: 10px;
+      font-family: 'Roboto Slab', serif;
+    }
+    
+  }
+
