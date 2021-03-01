@@ -51,6 +51,8 @@
     font-size: 17px;
   }
 
+
+
   .popular_post{
     font-family: 'Roboto Slab', serif;
   }
@@ -100,6 +102,22 @@
      box-shadow: 5px 10px #8f9e95;
 
   }
+  .card_follow{
+    background-color: white;
+    margin-top: 20px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #8f9e95;
+    visibility: visible;
+ }
+ .card_follow_phone{
+  background-color: white;
+  margin-top: 20px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #8f9e95;
+  visibility: hidden;
+ }
   
   /* Clear floats after the columns */
   .row:after {
@@ -273,6 +291,12 @@ a:hover .a-text {
     .body{
       background-image: none;
     }
+    .card_follow{
+      visibility: hidden;
+    }
+    .card_follow_phone{
+      visibility: visible;
+     }
     
   }
 

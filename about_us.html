@@ -27,7 +27,23 @@
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
+<style>
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
+@media screen and (max-width: 940px) {
+  .hidden{
+    visibility: visible;
+  }
+}
+@media screen and (max-width: 950px){
+  #contact_us_top_img{
+    margin-top: 20px;
+  }
+}
+</style>
 <!-- navbar phone-->
 <script>
   function myFunction() {
@@ -45,12 +61,6 @@
 <div class="header">
 </div>
 
-<style>
-  .head{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
-  }
-  </style>
-  
     <div class="head">
       <div class="topnav" id="myTopnav">
           <a href="index.html" class="active">Home</a>
@@ -59,7 +69,7 @@
           <a href="index_blog.html">Blog</a>
           <a href="index_contact.html">Contact Us</a>
           <a href="Photos/Report.pdf">Survey</a>
-          <a href="sources.html" class="hidden">Ciatation</a>
+          <a href="sources.html" visibility="hidden">Citation</a>
           <a href="https://www.youtube.com/channel/UCClQM-620BdxTcduYui3kZQ/featured" class="fab fa-youtube" id="youtube"></a>
           <a href="https://www.instagram.com/farm_x_/" class="fa fa-instagram" id="instagram"></a>
           <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -68,8 +78,8 @@
       </div>
     </div>
 
-<div id="contact_us_top_img">
-  <img src="Photos/About_us_top.2.f.jpg" id="contact_us_top_img">
+<div id="contact_us_top_img" >
+  <img src="Photos/About_us_top.2.f.png" id="contact_us_top_img">
 </div>
 
 <br>
@@ -105,7 +115,8 @@
 <br>
 <br>
 <br>
-<!-- FOOTER START -->
+
+<!-- Site footer -->
 <footer class="footer-distributed">
   
     <div class="footer-left">
@@ -171,15 +182,13 @@
 
 
 
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init({
-        duration: 3000,
-        once: true,
-      });
-    </script>
-
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 3000,
+      once: true,
+    });
+  </script>
 
 
 </body>

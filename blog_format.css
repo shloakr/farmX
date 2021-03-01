@@ -25,7 +25,9 @@ a:hover {
   bottom: -53px;
   right: 0px; 
 }
-
+.hide_phone{
+  visibility: visible;
+}
 
 .title_header{
   position: relative;  
@@ -35,6 +37,7 @@ a:hover {
     width: 100%;
 
 }
+
 
 .title{
   font-family: 'Roboto Slab', serif;
@@ -204,6 +207,9 @@ a:hover {
     visibility: hidden;
   }
   .icon-bar {
+    visibility: hidden;
+  }
+  .hide_phone{
     visibility: hidden;
   }
 

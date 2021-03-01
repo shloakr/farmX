@@ -28,9 +28,9 @@ body {
   width: 100%;
 }
 
-#landing_page_phone{
+
+.landing_page_phone{
   width: 0%;
-  visibility: hidden;
 }
 
 .header a {
@@ -118,10 +118,6 @@ body {
   margin-top: 1%;
 }
 
-.hidden{
-  visibility: visible;
-}
-
 /* landing text*/
 
 /*end of landing txt*/
@@ -140,8 +136,8 @@ body {
     float: right;
     display: block;
   }
-  #landing_page_phone{
-    visibility: visible;
+  .landing_page_phone{
+    width: 100%;
   }
   #landing_page{
     display:none
