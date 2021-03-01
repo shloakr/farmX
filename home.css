@@ -2,8 +2,8 @@
 .mySlides {display:none;}
 body {
   margin: 0;
-  background-image: url("Bg.1.jpg");
   height: 100%;
+  background-image: url("Bg_final.jpg");
 
 }
 
@@ -30,6 +30,7 @@ body {
 
 #landing_page_phone{
   width: 0%;
+  visibility: hidden;
 }
 
 .header a {
@@ -140,13 +141,16 @@ body {
     display: block;
   }
   #landing_page_phone{
-    width: 100%;
+    visibility: visible;
   }
   #landing_page{
     display:none
   }
   .hidden{
     visibility: hidden;
+  }
+  .body{
+    background-image: none;
   }
 }
 

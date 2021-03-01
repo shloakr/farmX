@@ -73,7 +73,7 @@ body {
   font-size: 18.5px;
 }
 
-@media screen and (max-width: 940px){
+@media screen and (max-width: 950px){
   .space{
     height: 20px;
   }
@@ -82,6 +82,9 @@ body {
   }
   .formfacade_form{
     width: 80%;
+  }
+  .body{
+    background-image: none;
   }
 }
 

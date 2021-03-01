@@ -178,6 +178,9 @@
       width: 1200px;
       margin: 0 auto;
     }
+    .body{
+      background-image: none;
+    }
   }
   @media only screen and (max-width: 1139px) {
     .contain .social {
@@ -186,6 +189,9 @@
     }
     .social h1 {
       margin: 0px;
+    }
+    .body{
+      background-image: none;
     }
   }
   @media only screen and (max-width: 950px) {
@@ -198,6 +204,9 @@
     .footer .col ul li {
       font-size: 13px;
     }
+    .body{
+      background-image: none;
+    }
   }
   @media only screen and (max-width: 500px) {
       .footer .col {
@@ -209,10 +218,17 @@
       .footer .col ul li {
         font-size: 13px;
       }
+      .body{
+        background-image: none;
+      }
   }
   @media only screen and (max-width: 340px) {
     .footer .col {
       width: 100%;
     }
+    .body{
+      background-image: none;
+    }
   }
+
   /*end of footer @media */

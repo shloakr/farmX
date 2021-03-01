@@ -216,7 +216,7 @@ body {
     background-color: #555;
   }
   
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 950px) {
     .column_team {
       width: 100%;
       display: block;
@@ -232,5 +232,8 @@ body {
       font-weight: bold;
       font-size: 250%;
       color: #597764;
+    }
+    .body{
+      background-image: none;
     }
   }
