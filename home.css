@@ -4,7 +4,7 @@ body {
   margin: 0;
   height: 100%;
   background-image: url("Bg_final.jpg");
-
+  width: 100%;
 }
 
 
@@ -126,7 +126,9 @@ body {
 /* drop down */
 
 /*start of header @media tags*/
-
+.hidden_2{
+  visibility: visible;
+}
 
 
 
@@ -142,7 +144,7 @@ body {
   #landing_page{
     display:none
   }
-  .hidden{
+  .hidden_2{
     visibility: hidden;
   }
   .body{

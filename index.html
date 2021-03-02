@@ -27,20 +27,26 @@
 <link rel="stylesheet" href="style.css">
 <script src="https://kit.fontawesome.com/e7fa4b00c3.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<link rel="stylesheet" href="home1.css"
-<!-- Carousel -->
+<link rel="stylesheet" href="home1.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-<!-- Carousel end-->
+<style>
+/* Make the image fully responsive */
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+</style>
 </head>
 
 <style>
   body {
-    background-image: url('Photos/Bg.1.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
+    width:  100vw; 
   }
 </style>
 <style>
@@ -66,9 +72,9 @@
           <a href="index_blog.html">Blog</a>
           <a href="index_contact.html">Contact Us</a>
           <a href="Photos/Report.pdf">Survey</a>
-          <a href="sources.html" class="hidden">Citation</a>
-          <a href="https://www.youtube.com/channel/UCClQM-620BdxTcduYui3kZQ/featured" class="fab fa-youtube" id="youtube"></a>
-          <a href="https://www.instagram.com/farm_x_/" class="fa fa-instagram" id="instagram"></a>
+          <a href="sources.html" class="hidden_2">Citation</a>
+          <a href="https://www.youtube.com/channel/UCClQM-620BdxTcduYui3kZQ/featured" class="hidden_2 fab fa-youtube" id="youtube"></a>
+          <a href="https://www.instagram.com/farm_x_/" class="hidden_2 fa fa-instagram"  id="instagram"></a>
           <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
           </a>
@@ -85,33 +91,39 @@
           }
         }
   </script>
+
+  
   <div id="landing">
-    <img src="Photos/Landing page.f.3.png" id="landing_page">
+    <img src="Photos/vishnu-vardhan-QBPddOh-hQE-unsplash.png" id="landing_page">
   </div>
+    
   <a href="issues.html" >
     <img src="Photos/env&tech_stat_main.png" id="landing_page" width="100%" data-aos="slide-right" data-aos-duration="1000">
   </a>
+
   <a href="issues.html" >
-    <img src="Photos/eco_poli.png" id="landing_page" width="100%" data-aos="slide-left" data-aos-duration="1000">
+    <img src="Photos/eco_poli.png" id="landing_page" width="100%" data-aos="slide-up" data-aos-duration="1000">
   </a>
+
   <a href="issues.html" >
     <img src="Photos/leftimg_2.png" id="landing_page" width="100%" data-aos="slide-right" data-aos-duration="1000">
   </a>
-  <a href="Survey.html">
-    <img src="Photos/primary_research.png" id="landing_page" width="100%"data-aos="slide-left" data-aos-duration="1000" >
+  
+  <a href="Photos/Report.pdf">
+    <img src="Photos/primary_research.png" id="landing_page" width="100%" data-aos="slide-up" data-aos-duration="1000" >
   </a>
   
-<img src="Photos/phone _landing.f.png" class="landing_page_phone">
+<img src="Photos/phone _landing.f.png" style="margin-top: 50px;"class="landing_page_phone">
   <a href="issues.html">
-    <img src="Photos/phone_main_issue-0.png" class="landing_page_phone" data-aos="slide-left" data-aos-duration="1000">
+    <img src="Photos/phone_main_issue-0.png" class="landing_page_phone" data-aos="fade-up" data-aos-duration="1000">
   </a>
 
   <a href="Survey.html" >
-    <img src="Photos/primary_phone.png" class="landing_page_phone" data-aos="slide-left" data-aos-duration="1000" >
+    <img src="Photos/primary_phone.png" class="landing_page_phone" data-aos="fade-up" data-aos-duration="1000" >
   </a> 
+ 
 
-
-  <!-- creid for icons 
+  <!-- credit for icons 
   <div>Icons made by <a href="https://www.flaticon.com/authors/ultimatearm" title="ultimatearm">ultimatearm</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
   <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
   <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
@@ -124,8 +136,9 @@
   <div>Icons made by <a href="https://creativemarket.com/eucalyp" title="Eucalyp">Eucalyp</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
   <a target="_blank" href="https://icons8.com/icons/set/farmer-male">Farmer icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
   -->
-  <!-- start of testimony-->
-  <style>
+  
+<!-- start of testimony -->
+<style>
   #quote-carousel {
       padding: 0 10px 30px 10px;
       margin-top: 60px;
@@ -173,10 +186,81 @@
       float: left;
       margin-right: 10px;
   }
-  </style>
+</style>
+<!-- 
+  <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                    <!-- Carousel Slides / Quotes 
+                    <div class="carousel-inner text-center">-->
+                        <!-- Quote 1 
+                        <div class="item active">
+                            <blockquote>
+                                <div class="row">
+                                    <div class="col-sm-8 col-sm-offset-2">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerCitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. !</p>
+                                        <small>Someone famous</small>
+                                    </div>
+                                </div>
+                            </blockquote>
+                        </div>
+                        Quote 2
+                        <div class="item">
+                            <blockquote>
+                                <div class="row">
+                                    <div class="col-sm-8 col-sm-offset-2">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerCitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                                        <small>Someone famous</small>
+                                    </div>
+                                </div>
+                            </blockquote>
+                        </div>
+                        Quote 3
+                        <div class="item">
+                            <blockquote>
+                                <div class="row">
+                                    <div class="col-sm-8 col-sm-offset-2">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerCitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. .</p>
+                                        <small>Someone famous</small>
+                                    </div>
+                                </div>
+                            </blockquote>
+                        </div>
+                        Quote 4
+                        <div class="item">
+                          <blockquote>
+                              <div class="row">
+                                  <div class="col-sm-8 col-sm-offset-2">
+                                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerCitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. .</p>
+                                      <small>Someone famous</small>
+                                  </div>
+                              </div>
+                          </blockquote>
+                      </div>
+                    </div>
+                    Bottom Carousel Indicators
+                    <ol class="carousel-indicators">
+                        <li data-target="#quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="https://s3.amazonaws.com/uifaces/faces/twitter/mantia/128.jpg" alt="">
+                        </li>
+                        <li data-target="#quote-carousel" data-slide-to="1"><img class="img-responsive" src="https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg" alt="">
+                        </li>
+                        <li data-target="#quote-carousel" data-slide-to="2"><img class="img-responsive" src="https://s3.amazonaws.com/uifaces/faces/twitter/brad_frost/128.jpg" alt="">
+                        </li>
+                        <li data-target="#quote-carousel" data-slide-to="2"><img class="img-responsive" src="https://s3.amazonaws.com/uifaces/faces/twitter/brad_frost/128.jpg" alt="">
+                        </li>
+                    </ol>
 
-
-
+                    Carousel Buttons Next/Prev 
+                    <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+                    <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <a class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSdePO9Klgh_nwKFq_l2UtDJcMoehy_nZwRXsZSMbYAHCOmG_Q/viewform?usp=sf_link"></i> Write a Review</a>
+    </div>
+  <div>
+-->
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
       <script>
         AOS.init({
@@ -202,7 +286,7 @@
   ·
     <a href="issues.html">Issues and Views</a>
   ·
-    <a href="index_contact.html">Blog</a>
+    <a href="index_blog.html">Blog</a>
   ·
     <a href="index_contact.html">Contact Us</a>
   ·
@@ -234,7 +318,7 @@
     <div class="footer-right">
 
     <p class="footer-company-about" style="color: black;">
-    <span style="color: grey;" font-family="Roboto Slab, serif;">Our Aim</span>
+    <span style="color: #939597; font-size: 23px;"><b>Our Aim</b></span>
     We aim to raise awareness about the inefficiency and plights that farmers face today.
     </p>
 

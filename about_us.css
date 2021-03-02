@@ -95,10 +95,10 @@ body {
 
 
 .header_top{
-    visibility: hidden;
+  visibility: hidden;
 }
 .header_top_text{
-    visibility: hidden;
+  visibility: hidden;
 }
 @media screen and (max-width:1100px) {
     .column {

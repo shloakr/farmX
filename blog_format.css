@@ -35,7 +35,6 @@ a:hover {
 
 #farmers_bill_img_blog{
     width: 100%;
-
 }
 
 
@@ -172,6 +171,10 @@ a:hover {
 
 
 @media screen and (max-width: 940px) {
+  #farmers_bill_img_blog{
+    width: 100%;
+    margin-top: 50px;
+  }
   .title{
     margin-left: 4%;
     font-family: 'Roboto Slab', serif;
