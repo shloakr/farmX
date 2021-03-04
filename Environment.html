@@ -35,42 +35,26 @@
 <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=6033f947317d2200110fb4e1&product=sticky-share-buttons" async="async"></script>
 </head>
 <body>
-<style>
-@media screen and (max-width: 940px) {
-  .hidden{
-    visibility: visible;
-  }
-}
-</style>
-  <div class="icon-bar" data-aos="fade-right" data-aos-duration="15000">
-    <a href="https://www.facebook.com/sharer/sharer.php?u=https://farmx.org.in/issues.html" class="facebook"><i class="fa fa-facebook"></i></a> 
-    <a href="https://twitter.com/intent/tweet?url=https://farmx.org.in/issues.html&text=Check%20out%20the%20grave%20issues%20farmers%20in%20India%20face%20today!" class="twitter"><i class="fa fa-twitter"></i></a> 
-    <a href="https://www.instagram.com/farm_x_/" class="instagram"><i class="fa fa-instagram"></i></a> 
-    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://farmx.org.in/issues.html" class="linkedin"><i class="fa fa-linkedin"></i></a>
-    <a href="https://www.youtube.com/channel/UCClQM-620BdxTcduYui3kZQ/featured" class="youtube"><i class="fa fa-youtube"></i></a> 
-  </div>
-<div class="head" data-aos="fade-down" data-aos-duration="5000">
-    <div class="topnav" id="myTopnav">
+<!-- nav javascript -->
+<div class="head">
+  <div class="topnav" id="myTopnav">
       <a href="index.html" class="active">Home</a>
       <a href="about_us.html">About Us</a>
       <a href="issues.html">Issues and Views</a>
       <a href="index_blog.html">Blog</a>
       <a href="index_contact.html">Contact Us</a>
       <a href="Photos/Report.pdf">Survey</a>
-          <a href="sources.html" class="hidden_2">Citation</a>
-          <a href="https://www.youtube.com/channel/UCClQM-620BdxTcduYui3kZQ/featured" class="hidden_2 fab fa-youtube" id="youtube"></a>
-          <a href="https://www.instagram.com/farm_x_/" class="hidden_2 fa fa-instagram"  id="instagram"></a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <a href="sources.html"  >Citation</a>
+      <a href="https://www.youtube.com/channel/UCClQM-620BdxTcduYui3kZQ/featured" class="  fab fa-youtube" id="youtube"></a>
+      <a href="https://www.instagram.com/farm_x_/" class="  fa fa-instagram"  id="instagram"></a>
+      <a href="javascript:void(0);" class="icon" onclick="menu()">
         <i class="fa fa-bars"></i>
       </a>
   </div>
-  <div class="progress-container">
-    <div class="progress-bar" id="myBar"></div>
-  </div> 
 </div>
-<!-- nav javascript -->
+
 <script>
-  function myFunction() {
+  function menu() {
     var x = document.getElementById("myTopnav");
       if (x.className === "topnav") {
         x.className += " responsive";
@@ -78,7 +62,7 @@
           x.className = "topnav";
         }
       }
-window.onscroll = function() {myFunction()};
+      window.onscroll = function() {myFunction()};
   function myFunction() {
     var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
     var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
@@ -86,8 +70,6 @@ window.onscroll = function() {myFunction()};
     document.getElementById("myBar").style.width = scrolled + "%";
   }
 </script>
-
-
 <div class="blog_header">
   <div class="title_header">
     <img src="Photos/daniel-moqvist-WZw6zs0kKzo-unsplash.jpg" id="farmers_bill_img_blog">
@@ -208,7 +190,7 @@ window.onscroll = function() {myFunction()};
 
   <p class="footer-company-about" style="color: black;">
   <span style="color: grey;" font-family="Roboto Slab, serif;">Our Aim</span>
-  We aim to raise awareness about the inefficiency and plights that farmers face today.
+   We aim to raise awareness about the plights that farmers face today.
   </p>
 
   <div class="footer-icons">

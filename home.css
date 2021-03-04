@@ -126,7 +126,7 @@ body {
 /* drop down */
 
 /*start of header @media tags*/
-.hidden_2{
+. {
   visibility: visible;
 }
 
@@ -144,7 +144,7 @@ body {
   #landing_page{
     display:none
   }
-  .hidden_2{
+  . {
     visibility: hidden;
   }
   .body{

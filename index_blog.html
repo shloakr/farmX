@@ -52,9 +52,9 @@
           <a href="index_blog.html">Blog</a>
           <a href="index_contact.html">Contact Us</a>
           <a href="Photos/Report.pdf">Survey</a>
-          <a href="sources.html" class="hidden_2">Citation</a>
-          <a href="https://www.youtube.com/channel/UCClQM-620BdxTcduYui3kZQ/featured" class="hidden_2 fab fa-youtube" id="youtube"></a>
-          <a href="https://www.instagram.com/farm_x_/" class="hidden_2 fa fa-instagram"  id="instagram"></a>
+          <a href="sources.html"  >Citation</a>
+          <a href="https://www.youtube.com/channel/UCClQM-620BdxTcduYui3kZQ/featured" class="  fab fa-youtube" id="youtube"></a>
+          <a href="https://www.instagram.com/farm_x_/" class="  fa fa-instagram"  id="instagram"></a>
           <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
           </a>
@@ -74,6 +74,17 @@
       }
 </script>
 
+<style>
+  .hide_phone{
+    visibility: visible;
+  }
+  @media only screen and (max-width: 950px) {
+    .hide_phone{
+      visibility: hidden;
+    }
+  }
+</style>
+
 <br>
 <br>
 <br>
@@ -85,6 +96,22 @@
 <div class="row layout" >
   <div class="leftcolumn">
     <div class="card" data-aos="slide-up" data-aos-duration="1000">
+      <h2 class="title"><b>How does the <a class="effect-underline highlight" >budget 2021</a> affect the agricultural industry?</b></h2>
+      <h5><a class="effect-underline date"> March 4, 2021</h5></a>
+      <img src="Photos/farm_bill_420by1040.png" id="farmers_bill_img_blog"></img>
+      <p class="text">This year's budget has been a perplexing one for the agricultural industry and farmers. During the budget speech in the parliament the Finance Minister lauded the government's successes in the sphere of MSP ( minimum support price) where <a href="https://www.thehindu.com/business/budget/union-budget-2021-is-nirmala-sending-a-message-to-agitating-farmers/article33719123.ece"  class="r-link animated-underline animated-underline_type5 blog_hyperlink">Nirmala Sitharaman claimed farmers were paid at least 1.5 times their costs of production and giving APMC mandis access to the 1 lakh core agricultural infrastructure fund.</a></a></p>
+      <br>
+      <div id="container">
+        <a class="btn" href="budget.html">
+          <span class="circle">
+            <span class="icon arrow"></span>
+          </span>
+          <span class="a-text">Read More</span>
+        </a>
+      </div>
+      <br>
+    </div>
+    <div class="card" data-aos="fade-up" data-aos-duration="1000">
       <h2 class="title"><b>Will the new <a class="effect-underline highlight" >Farmers’ Bill</a> change the economic condition of farmers?</b></h2>
       <h5><a class="effect-underline date"> November 17, 2020</h5></a>
       <img src="Photos/farm_bill_420by1040.png" id="farmers_bill_img_blog"></img>
@@ -100,13 +127,7 @@
       </div>
       <br>
     </div>
-    <div class="card" data-aos="fade-up" data-aos-duration="1000">
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Sep 2, 2017</h5>
-      <div class="fakeimg" style="height:200px;">Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerCitation ullamco.</p>
-    </div>
+
   </div>
   <div class="rightcolumn">
     <div class="card" data-aos="fade-left" data-aos-duration="1000">
@@ -120,14 +141,14 @@
       </svg>
     </div>
       <img src="Photos/logo.3.png" alt="FarmX logo" id="logo" style="height:96px; width: 302px; margin-bottom: 20px; margin-right: 20px;">
-      <p class="text">We aim to raise awareness about the inefficiency and plights that farmers face today.</p>
+      <p class="text"> We aim to raise awareness about the plights that farmers face today.</p>
     </div>
-    <div class="card" data-aos="fade-left" data-aos-duration="1000">
+    <div class="card hide_phone" data-aos="fade-left" data-aos-duration="1000">
       <h3 class="side_headings" href="issues.html"><center><b>Issues and Views</b></center></h3>
       <h4 class="effect-underline highlight" style="font-size: 20px;" href= "Photos/Economic Issues.1.jpg"><b><center>Economic Issues</b></center></h4>
-      <a href="Environment.html">
+      <a href="Economic_Issues.html">
         <div class="fakeimg"><img src="Photos/Economic Issues.1.jpg" style="width: 100%;"></img><br></div>
-        <div><a href="Environment.html" class="r-link animated-underline animated-underline_type3 news__link popular_post">76% of all farmers want to give up farming the elemental reason being the average farmer earns only $1459 ergo roughly 20% of them live in poverty.</a></div><br>
+        <div><a href="Economic_Issues.html" class="r-link animated-underline animated-underline_type3 news__link popular_post">76% of all farmers want to give up farming the elemental reason being the average farmer earns only $1459 ergo roughly 20% of them live in poverty.</a></div><br>
       </a>
       <h4 class="effect-underline highlight" style="font-size: 20px;" href= "Environment.html"><b><center>Environmental Issues</b></center></h4>
       <a href="Environment.html">
@@ -218,7 +239,7 @@
 
   <p class="footer-company-about" style="color: black;">
   <span style="color: grey;" font-family="Roboto Slab, serif;">Our Aim</span>
-  We aim to raise awareness about the inefficiency and plights that farmers face today.
+   We aim to raise awareness about the plights that farmers face today.
   </p>
 
   <div class="footer-icons">
