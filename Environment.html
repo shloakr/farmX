@@ -36,46 +36,58 @@
 </head>
 <body>
 <!-- nav javascript -->
-<div class="head">
-  <div class="topnav" id="myTopnav">
-      <a href="index.html" class="active">Home</a>
-      <a href="about_us.html">About Us</a>
-      <a href="issues.html">Issues and Views</a>
-      <a href="index_blog.html">Blog</a>
-      <a href="index_contact.html">Contact Us</a>
-      <a href="Photos/Report.pdf">Survey</a>
-      <a href="sources.html"  >Citation</a>
-      <a href="https://www.youtube.com/channel/UCClQM-620BdxTcduYui3kZQ/featured" class="  fab fa-youtube" id="youtube"></a>
-      <a href="https://www.instagram.com/farm_x_/" class="  fa fa-instagram"  id="instagram"></a>
-      <a href="javascript:void(0);" class="icon" onclick="menu()">
-        <i class="fa fa-bars"></i>
-      </a>
-  </div>
-</div>
 
-<script>
-  function menu() {
-    var x = document.getElementById("myTopnav");
-      if (x.className === "topnav") {
-        x.className += " responsive";
-      } else {
-          x.className = "topnav";
+  <body background="Photos/Bg.1.jpg">
+  <div class="icon-bar" data-aos="fade-right" data-aos-duration="15000">
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https://farmx.org.in/issues.html" class="facebook"><i class="fa fa-facebook"></i></a> 
+    <a href="https://twitter.com/intent/tweet?url=https://farmx.org.in/issues.html&text=Check%20out%20the%20grave%20issues%20farmers%20in%20India%20face%20today!" class="twitter"><i class="fa fa-twitter"></i></a> 
+    <a href="https://www.instagram.com/farm_x_/" class="instagram"><i class="fa fa-instagram"></i></a> 
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://farmx.org.in/issues.html" class="linkedin"><i class="fa fa-linkedin"></i></a>
+    <a href="https://www.youtube.com/channel/UCClQM-620BdxTcduYui3kZQ/featured" class="youtube"><i class="fa fa-youtube"></i></a> 
+  </div>
+  <div class="head" data-aos="fade-down" data-aos-duration="5000">
+      <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="about_us.html">About Us</a>
+        <a href="issues.html">Issues and Views</a>
+        <a href="index_blog.html">Blog</a>
+        <a href="index_contact.html">Contact Us</a>
+        <a href="Photos/Report.pdf">Survey</a>
+            <a href="sources.html"  >Citation</a>
+            <a href="https://www.youtube.com/channel/UCClQM-620BdxTcduYui3kZQ/featured" class="  fab fa-youtube" id="youtube"></a>
+            <a href="https://www.instagram.com/farm_x_/" class="  fa fa-instagram"  id="instagram"></a>
+        <a href="javascript:void(0);" class="icon" onclick="menu()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <div class="progress-container">
+      <div class="progress-bar" id="myBar"></div>
+    </div> 
+  </div>
+  <!-- nav javascript -->
+  <script>
+    function menu() {
+      var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+            x.className = "topnav";
+          }
         }
-      }
-      window.onscroll = function() {myFunction()};
-  function myFunction() {
-    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-    var scrolled = (winScroll / height) * 100;
-    document.getElementById("myBar").style.width = scrolled + "%";
-  }
-</script>
+        window.onscroll = function() {myFunction()};
+    function myFunction() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
+  </script>
 <div class="blog_header">
   <div class="title_header">
     <img src="Photos/daniel-moqvist-WZw6zs0kKzo-unsplash.jpg" id="farmers_bill_img_blog">
     <div class="title_div"><h2 class="title"><b><a class="highlight">Environmental</a> issues</b></h2> </div>
   </div>
-  <h4 class="credit"><a class="triangle">&#9650</a> Image by AP Photo/Altaf Qadri. An elderly farmer shouts slogans as <br />others listen to a speaker as they block a major highway during a protest <br />to abolish new farming laws.</h4>
+  <h4 class="credit"><a class="triangle">&#9650</a> the image shows a factory emitting toxic fumes which may eventually<br>hurt the environment around the factory.(Unsplash)</h4>
 </div>
 
 <div class="text">
