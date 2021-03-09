@@ -32,12 +32,13 @@ body {
 
 .text_cite{
     font-family: 'Roboto Slab', serif;
-    margin-left: 5%;
+    margin-right: 5%;
     font-size: 17px; 
 }
 
 @media screen and (max-width: 940px) {
     .body{
         background-image: none;
+        
     }
 }
