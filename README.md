@@ -1,4 +1,4 @@
-# Foobar
+# About FarmX
 
 FarmX is a project to raise awerness about the plights farmers face in India 
 
