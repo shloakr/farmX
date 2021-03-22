@@ -1,11 +1,16 @@
 
 .mySlides {display:none;}
+@media screen and (min-width: 940px) {
+  .body{
+    background-image: url("Photos/Bg_final.jpg");
+  }
+}
 body {
   margin: 0;
   height: 100%;
-  background-image: url("Bg_final.jpg");
   width: 100%;
 }
+
 
 
 ::selection {
@@ -126,9 +131,7 @@ body {
 /* drop down */
 
 /*start of header @media tags*/
-. {
-  visibility: visible;
-}
+
 
 
 
@@ -144,9 +147,7 @@ body {
   #landing_page{
     display:none
   }
-  . {
-    visibility: hidden;
-  }
+
   .body{
     background-image: none;
   }
