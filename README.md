@@ -6,6 +6,10 @@ FarmX is a project to raise awerness about the plights farmers face in India.
 
 FarmX is founded by Pratham Dave, [Varun Shah](https://github.com/vvs005), Sana Mehta and Shloak Rathod.
 
+## Developers 
+
+This webiste was developed by [Varun Shah](https://github.com/vvs005) and Shloak Rathod equally. 
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
