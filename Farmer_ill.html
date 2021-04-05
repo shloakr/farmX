@@ -34,6 +34,7 @@
 </head>
 <body>
 <style>
+
 @media screen and (max-width: 940px) {
   .hidden{
     visibility: visible;
@@ -48,12 +49,19 @@
   <a href="https://www.youtube.com/watch?v=5QyLSeIQrsc" class="youtube"><i class="fa fa-youtube"></i></a> 
 </div>
 <style>
+@media (max-width: 900px) {
   body {
-    background-image: url('Photos/Bg.1.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
+    background-color: white;
   }
+}
+@media (min-width: 901px) {
+  body {
+    background-image: url('Photos/Bg_final.jpg'); ;
+    background-color: rgba(255,255,255,0.6);
+    background-blend-mode: lighten;
+
+  }
+}
 </style>
 <div class="head" data-aos="fade-down" data-aos-duration="5000">
     <div class="topnav" id="myTopnav">

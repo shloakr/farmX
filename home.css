@@ -1,10 +1,6 @@
 
 .mySlides {display:none;}
-@media screen and (min-width: 940px) {
-  .body{
-    background-image: url("Photos/Bg_final.jpg");
-  }
-}
+
 body {
   margin: 0;
   height: 100%;
